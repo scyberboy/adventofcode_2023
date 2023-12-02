@@ -56,12 +56,18 @@ def controlled_input_read():
 
 # SOLUTIONS
 def find_solution_a():
+    """
+    <Description goes here>
+    """
     result = "DUMMY(a)"
 
     return result
 
 
 def find_solution_b():
+    """
+    <Description goes here>
+    """
     result = "DUMMY(b)"
 
     return result

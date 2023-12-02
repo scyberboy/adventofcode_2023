@@ -1,0 +1,7 @@
+day_nr: 01
+[0.03125] took: 0.0 sec.
+[0.03125] took: 0.0 sec.
+result_a: 55834
+[0.03125] took: 0.0 sec.
+result_b: 53225
+[0.03125] took: 0.0 sec.

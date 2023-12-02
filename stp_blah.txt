@@ -1,0 +1,238 @@
+day_nr: 01
+[0.03125] took: 0.0 sec.
+[0.03125] took: 0.0 sec.
+result_a: 55834
+[0.03125] took: 0.0 sec.
+	0: ori elem -> threefourrjshnlzm9nineeightdzllhjhl8gdtqmb
+	0: processed from left elem -> 3fourrjshnlzm9nineeightdzllhjhl8gdtqmb
+	0: processed from right elem -> 3fourrjshnlzm9nine8dzllhjhl8gdtqmb
+	1: ori elem -> 9cqhrtwo1five12m
+	1: processed from right elem -> 9cqhrtwo1512m
+	2: ori elem -> pb89hzbnxgbrrd
+	2: processed from left elem -> pb89hzbnxgbrrd
+	2: processed from right elem -> pb89hzbnxgbrrd
+	3: ori elem -> jreight1five
+	3: processed from left elem -> jr81five
+	3: processed from right elem -> jr815
+	4: ori elem -> four18pmcrdbkcdcjcsix2fhssbzjjjvzhnjjk
+	4: processed from left elem -> 418pmcrdbkcdcjcsix2fhssbzjjjvzhnjjk
+	4: processed from right elem -> 418pmcrdbkcdcjc62fhssbzjjjvzhnjjk
+	5: ori elem -> rn4sjbjtn
+	5: processed from left elem -> rn4sjbjtn
+	5: processed from right elem -> rn4sjbjtn
+	6: ori elem -> vbt3kmkskgn5l
+	6: processed from left elem -> vbt3kmkskgn5l
+	6: processed from right elem -> vbt3kmkskgn5l
+	7: ori elem -> threexsrfcqdlll9bfjk
+	7: processed from left elem -> 3xsrfcqdlll9bfjk
+	7: processed from right elem -> 3xsrfcqdlll9bfjk
+	8: ori elem -> zfourninekjztvzphtc9eight6
+	8: processed from left elem -> z4ninekjztvzphtc9eight6
+	9: ori elem -> 75three1six67
+	10: ori elem -> eight73seven41fsxmkdqd
+	10: processed from left elem -> 873seven41fsxmkdqd
+	10: processed from right elem -> 873741fsxmkdqd
+	11: ori elem -> threeeightlccnztnrfx2mtqvfcqtjx9lfnkmldpm
+	11: processed from left elem -> 3eightlccnztnrfx2mtqvfcqtjx9lfnkmldpm
+	11: processed from right elem -> 38lccnztnrfx2mtqvfcqtjx9lfnkmldpm
+	12: ori elem -> 14seven92sevensixxzrmhtchqk
+	12: processed from right elem -> 14seven92seven6xzrmhtchqk
+	13: ori elem -> 1nhjllhkglzseven6kfqfszkfgb6lhfljnspj
+	13: processed from right elem -> 1nhjllhkglz76kfqfszkfgb6lhfljnspj
+	14: ori elem -> onetwofive182
+	14: processed from left elem -> 1twofive182
+	15: ori elem -> vnzjcptm83one9
+	15: processed from left elem -> vnzjcptm8319
+	16: ori elem -> bqdhljbknreightthreeeight2
+	16: processed from left elem -> bqdhljbknr8threeeight2
+	17: ori elem -> 3txkkxsrxbzsixj
+	17: processed from right elem -> 3txkkxsrxbz6j
+	18: ori elem -> 2cjthreemhtd4jvzpgbkngsxbnrtgj
+	18: processed from right elem -> 2cj3mhtd4jvzpgbkngsxbnrtgj
+	19: ori elem -> one2pjpjsfpdznnxgkhdqnine1fivetwo
+	19: processed from left elem -> 12pjpjsfpdznnxgkhdqnine1fivetwo
+	19: processed from right elem -> 12pjpjsfpdznnxgkhdqnine1five2
+	20: ori elem -> qhcdv73vn
+	20: processed from left elem -> qhcdv73vn
+	20: processed from right elem -> qhcdv73vn
+	21: ori elem -> 66fourrz79seven
+	21: processed from right elem -> 66fourrz797
+	22: ori elem -> five7threepxrfbrqz
+	22: processed from left elem -> 57threepxrfbrqz
+	22: processed from right elem -> 573pxrfbrqz
+	23: ori elem -> prlsxjkhm6kkhrpdltqznineseven7
+	23: processed from left elem -> prlsxjkhm6kkhrpdltqz9seven7
+	24: ori elem -> 89fouroneq15
+	25: ori elem -> 4twofmsjsbqls25
+	26: ori elem -> 4smqsdrpdqqcdlxjfvrnsevenseventwo
+	26: processed from right elem -> 4smqsdrpdqqcdlxjfvrnsevenseven2
+	27: ori elem -> pnqqpctwollkbbpmfmnzlmzsz2z
+	27: processed from left elem -> pnqqpc2llkbbpmfmnzlmzsz2z
+	27: processed from right elem -> pnqqpc2llkbbpmfmnzlmzsz2z
+	28: ori elem -> eightxcjlsbtzzbrbkmseveneight47fivelrp
+	28: processed from left elem -> 8xcjlsbtzzbrbkmseveneight47fivelrp
+	28: processed from right elem -> 8xcjlsbtzzbrbkmseveneight475lrp
+	29: ori elem -> hmqlmzhvfl1lv6fourfiverfspsnvtwo
+	29: processed from left elem -> hmqlmzhvfl1lv64fiverfspsnvtwo
+	29: processed from right elem -> hmqlmzhvfl1lv64fiverfspsnv2
+	30: ori elem -> 7sevencvsxqmkthree
+	30: processed from right elem -> 7sevencvsxqmk3
+	31: ori elem -> 273ninefour6eighthnhdzm
+	31: processed from right elem -> 273ninefour68hnhdzm
+	32: ori elem -> four3vdcsfnineseven5
+	32: processed from left elem -> 43vdcsfnineseven5
+	33: ori elem -> mvpctnvzcnpdqbxbd2knlrzvfpgqdsdjztlgvf
+	33: processed from left elem -> mvpctnvzcnpdqbxbd2knlrzvfpgqdsdjztlgvf
+	33: processed from right elem -> mvpctnvzcnpdqbxbd2knlrzvfpgqdsdjztlgvf
+	34: ori elem -> sixfive7
+	34: processed from left elem -> 6five7
+	35: ori elem -> 3ninenpxqtj49four
+	35: processed from right elem -> 3ninenpxqtj494
+	36: ori elem -> 1lplgcsz5seven
+	36: processed from right elem -> 1lplgcsz57
+	37: ori elem -> lvvmmvn37
+	37: processed from left elem -> lvvmmvn37
+	38: ori elem -> 2sevenqbppzsldfourseven
+	38: processed from right elem -> 2sevenqbppzsldfour7
+	39: ori elem -> bmrs1rbfsfdhconeonesix
+	39: processed from left elem -> bmrs1rbfsfdhc1onesix
+	39: processed from right elem -> bmrs1rbfsfdhc1one6
+	40: ori elem -> 3sixrrxrbbzsixsixfrhghcvkrfnggmhqx95
+	41: ori elem -> 4one4nine
+	41: processed from right elem -> 4one49
+	42: ori elem -> 2fourkrpsmnkcslnszhdvjfour
+	42: processed from right elem -> 2fourkrpsmnkcslnszhdvj4
+	43: ori elem -> mqnmstznbnbrgzrvgdtzbxbnfrvcm2lbpprxqc
+	43: processed from left elem -> mqnmstznbnbrgzrvgdtzbxbnfrvcm2lbpprxqc
+	43: processed from right elem -> mqnmstznbnbrgzrvgdtzbxbnfrvcm2lbpprxqc
+	44: ori elem -> dzlbvpj5hxmtzfzb3fdhxvtb8rhtlnhpjvtf
+	44: processed from left elem -> dzlbvpj5hxmtzfzb3fdhxvtb8rhtlnhpjvtf
+	44: processed from right elem -> dzlbvpj5hxmtzfzb3fdhxvtb8rhtlnhpjvtf
+	45: ori elem -> qcptwone1fiveqxfrtmbpdtdtfceightstfivenine
+	45: processed from left elem -> qcp2ne1fiveqxfrtmbpdtdtfceightstfivenine
+	45: processed from right elem -> qcp2ne1fiveqxfrtmbpdtdtfceightstfive9
+	46: ori elem -> 42seventwo
+	46: processed from right elem -> 42seven2
+	47: ori elem -> four84mlspvcfnineeight84
+	47: processed from left elem -> 484mlspvcfnineeight84
+	48: ori elem -> 1bsix5rbdqnc2fiveseven
+	48: processed from right elem -> 1bsix5rbdqnc2five7
+	49: ori elem -> mzbgh9vhksjone
+	49: processed from left elem -> mzbgh9vhksj1
+	50: ori elem -> 4eightfivefivetwo1oneightvhr
+	50: processed from right elem -> 4eightfivefivetwo1on8vhr
+	51: ori elem -> one7bpqltzf9ninesix
+	51: processed from left elem -> 17bpqltzf9ninesix
+	51: processed from right elem -> 17bpqltzf9nine6
+	52: ori elem -> 9sevenrc
+	52: processed from right elem -> 97rc
+	53: ori elem -> threethree3four64
+	53: processed from left elem -> 3three3four64
+	54: ori elem -> krpzm9vgzzcgjsxhnkckqv98lmjthbdqsixsix
+	54: processed from left elem -> krpzm9vgzzcgjsxhnkckqv98lmjthbdq6six
+	54: processed from right elem -> krpzm9vgzzcgjsxhnkckqv98lmjthbdq66
+	55: ori elem -> seven4six9gxrqzbmnone9
+	55: processed from left elem -> 74six9gxrqzbmnone9
+	56: ori elem -> xjzfxlzzb5rdstbqnjt
+	56: processed from left elem -> xjzfxlzzb5rdstbqnjt
+	56: processed from right elem -> xjzfxlzzb5rdstbqnjt
+	57: ori elem -> bfpmf5seven6eightxdxsctrcd
+	57: processed from left elem -> bfpmf576eightxdxsctrcd
+	57: processed from right elem -> bfpmf5768xdxsctrcd
+	58: ori elem -> fivekhcfqgffntsmxxxseven655
+	58: processed from left elem -> 5khcfqgffntsmxxxseven655
+	59: ori elem -> 2dbcfmvsevenxfkxfjfkfive
+	59: processed from right elem -> 2dbcfmvsevenxfkxfjfk5
+	60: ori elem -> twofrgktmh9nskvhxchnine
+	60: processed from left elem -> 2frgktmh9nskvhxchnine
+	60: processed from right elem -> 2frgktmh9nskvhxch9
+	61: ori elem -> 43slhfrqsfp9
+	62: ori elem -> 6fiveeight79995vkkncvsqhk
+	62: processed from right elem -> 6five879995vkkncvsqhk
+	63: ori elem -> eight6chnqqvbng9threedlsvdnqkpnxszkshtqppgdjn
+	63: processed from left elem -> 86chnqqvbng9threedlsvdnqkpnxszkshtqppgdjn
+	63: processed from right elem -> 86chnqqvbng93dlsvdnqkpnxszkshtqppgdjn
+	64: ori elem -> onepkgxfvgngt8six
+	64: processed from left elem -> 1pkgxfvgngt8six
+	64: processed from right elem -> 1pkgxfvgngt86
+	65: ori elem -> 88gdtttxsjkpvpqbeighthpxlsdsbl6one
+	65: processed from right elem -> 88gdtttxsjkpvpqbeighthpxlsdsbl61
+	66: ori elem -> eight6xkm8
+	66: processed from left elem -> 86xkm8
+	67: ori elem -> threepsmmfbdqx4
+	67: processed from left elem -> 3psmmfbdqx4
+	68: ori elem -> seven5639
+	68: processed from left elem -> 75639
+	69: ori elem -> six3qlgbddfn6eightnine
+	69: processed from left elem -> 63qlgbddfn6eightnine
+	69: processed from right elem -> 63qlgbddfn6eight9
+	70: ori elem -> 2lrlzvdpklf4five8two4
+	71: ori elem -> sixvhbz7
+	71: processed from left elem -> 6vhbz7
+	72: ori elem -> ksfhbrfnhdqbfkgcblthreefour55
+	72: processed from left elem -> ksfhbrfnhdqbfkgcbl3four55
+	73: ori elem -> one6958mmhvjj
+	73: processed from left elem -> 16958mmhvjj
+	73: processed from right elem -> 16958mmhvjj
+	74: ori elem -> oneqmfmnjg7fmrnine
+	74: processed from left elem -> 1qmfmnjg7fmrnine
+	74: processed from right elem -> 1qmfmnjg7fmr9
+	75: ori elem -> 6ninefourgvztqcztk4sevensix1
+	76: ori elem -> 5gsjgpcrvq
+	76: processed from right elem -> 5gsjgpcrvq
+	77: ori elem -> ktss45
+	77: processed from left elem -> ktss45
+	78: ori elem -> kbtjtdcljbjcghxcbjlv3foureight
+	78: processed from left elem -> kbtjtdcljbjcghxcbjlv34eight
+	78: processed from right elem -> kbtjtdcljbjcghxcbjlv348
+	79: ori elem -> fivefive6vcgxjjthreenine
+	79: processed from left elem -> 5five6vcgxjjthreenine
+	79: processed from right elem -> 5five6vcgxjjthree9
+	80: ori elem -> qns2fgklcgzzbczjdnvgcxsix
+	80: processed from left elem -> qns2fgklcgzzbczjdnvgcx6
+	81: ori elem -> 74gfpsfjfour81zjxqfbb
+	81: processed from right elem -> 74gfpsfj481zjxqfbb
+	82: ori elem -> scvqlthree1
+	82: processed from left elem -> scvql31
+	83: ori elem -> 398ggxg
+	83: processed from right elem -> 398ggxg
+	84: ori elem -> mpvoneightsixbdhbmhklveightthree182
+	84: processed from left elem -> mpv1ightsixbdhbmhklveightthree182
+	85: ori elem -> 7bvjnine2fivethreefour
+	85: processed from right elem -> 7bvjnine2fivethree4
+	86: ori elem -> 52pfivenineqpshjdbb
+	86: processed from right elem -> 52pfive9qpshjdbb
+	87: ori elem -> 59threexjjbczsix5
+	88: ori elem -> oneeight69dkhvvplxjfourseven
+	88: processed from left elem -> 1eight69dkhvvplxjfourseven
+	88: processed from right elem -> 1eight69dkhvvplxjfour7
+	89: ori elem -> oneeight9threevctrd4
+	89: processed from left elem -> 1eight9threevctrd4
+	90: ori elem -> 5threesix7
+	91: ori elem -> 8five7kltvbjtbsvnkhlzrtntwo
+	91: processed from right elem -> 8five7kltvbjtbsvnkhlzrtn2
+	92: ori elem -> 33four8cd
+	92: processed from right elem -> 3348cd
+	93: ori elem -> 48three5fiveseven2hmb
+	93: processed from right elem -> 48three5five72hmb
+	94: ori elem -> one5seven
+	94: processed from left elem -> 15seven
+	94: processed from right elem -> 157
+	95: ori elem -> 7onetwovxmtvrjxb1
+	96: ori elem -> 45five7fivegpzhcfbbfiveqhnhhzdqtnltgnkrxz
+	96: processed from right elem -> 45five7fivegpzhcfbb5qhnhhzdqtnltgnkrxz
+	97: ori elem -> kfjzhdtgkjtqthree7pvmxs
+	97: processed from left elem -> kfjzhdtgkjtq37pvmxs
+	97: processed from right elem -> kfjzhdtgkjtq37pvmxs
+	98: ori elem -> 7two5one8
+	99: ori elem -> 3eighteightllkbxkbs9zgznxtj8lfflcst
+	99: processed from right elem -> 3eight8llkbxkbs9zgznxtj8lfflcst
+
+translated_data: ['3fourrjshnlzm9nine8dzllhjhl8gdtqmb', '9cqhrtwo1512m', 'pb89hzbnxgbrrd', 'jr815', '418pmcrdbkcdcjc62fhssbzjjjvzhnjjk', 'rn4sjbjtn', 'vbt3kmkskgn5l', '3xsrfcqdlll9bfjk', 'z4ninekjztvzphtc9eight6', '75three1six67', '873741fsxmkdqd', '38lccnztnrfx2mtqvfcqtjx9lfnkmldpm', '14seven92seven6xzrmhtchqk', '1nhjllhkglz76kfqfszkfgb6lhfljnspj', '1twofive182', 'vnzjcptm8319', 'bqdhljbknr8threeeight2', '3txkkxsrxbz6j', '2cj3mhtd4jvzpgbkngsxbnrtgj', '12pjpjsfpdznnxgkhdqnine1five2', 'qhcdv73vn', '66fourrz797', '573pxrfbrqz', 'prlsxjkhm6kkhrpdltqz9seven7', '89fouroneq15', '4twofmsjsbqls25', '4smqsdrpdqqcdlxjfvrnsevenseven2', 'pnqqpc2llkbbpmfmnzlmzsz2z', '8xcjlsbtzzbrbkmseveneight475lrp', 'hmqlmzhvfl1lv64fiverfspsnv2', '7sevencvsxqmk3', '273ninefour68hnhdzm', '43vdcsfnineseven5', 'mvpctnvzcnpdqbxbd2knlrzvfpgqdsdjztlgvf', '6five7', '3ninenpxqtj494', '1lplgcsz57', 'lvvmmvn37', '2sevenqbppzsldfour7', 'bmrs1rbfsfdhc1one6', '3sixrrxrbbzsixsixfrhghcvkrfnggmhqx95', '4one49', '2fourkrpsmnkcslnszhdvj4', 'mqnmstznbnbrgzrvgdtzbxbnfrvcm2lbpprxqc', 'dzlbvpj5hxmtzfzb3fdhxvtb8rhtlnhpjvtf', 'qcp2ne1fiveqxfrtmbpdtdtfceightstfive9', '42seven2', '484mlspvcfnineeight84', '1bsix5rbdqnc2five7', 'mzbgh9vhksj1', '4eightfivefivetwo1on8vhr', '17bpqltzf9nine6', '97rc', '3three3four64', 'krpzm9vgzzcgjsxhnkckqv98lmjthbdq66', '74six9gxrqzbmnone9', 'xjzfxlzzb5rdstbqnjt', 'bfpmf5768xdxsctrcd', '5khcfqgffntsmxxxseven655', '2dbcfmvsevenxfkxfjfk5', '2frgktmh9nskvhxch9', '43slhfrqsfp9', '6five879995vkkncvsqhk', '86chnqqvbng93dlsvdnqkpnxszkshtqppgdjn', '1pkgxfvgngt86', '88gdtttxsjkpvpqbeighthpxlsdsbl61', '86xkm8', '3psmmfbdqx4', '75639', '63qlgbddfn6eight9', '2lrlzvdpklf4five8two4', '6vhbz7', 'ksfhbrfnhdqbfkgcbl3four55', '16958mmhvjj', '1qmfmnjg7fmr9', '6ninefourgvztqcztk4sevensix1', '5gsjgpcrvq', 'ktss45', 'kbtjtdcljbjcghxcbjlv348', '5five6vcgxjjthree9', 'qns2fgklcgzzbczjdnvgcx6', '74gfpsfj481zjxqfbb', 'scvql31', '398ggxg', 'mpv1ightsixbdhbmhklveightthree182', '7bvjnine2fivethree4', '52pfive9qpshjdbb', '59threexjjbczsix5', '1eight69dkhvvplxjfour7', '1eight9threevctrd4', '5threesix7', '8five7kltvbjtbsvnkhlzrtn2', '3348cd', '48three5five72hmb', '157', '7onetwovxmtvrjxb1', '45five7fivegpzhcfbb5qhnhhzdqtnltgnkrxz', 'kfjzhdtgkjtq37pvmxs', '7two5one8', '3eight8llkbxkbs9zgznxtj8lfflcst']
+
+stripped_data: ['3fourrjshnlzm9nine8dzllhjhl8', '9cqhrtwo1512', '89', '815', '418pmcrdbkcdcjc62', '4', '3kmkskgn5', '3xsrfcqdlll9', '4ninekjztvzphtc9eight6', '75three1six67', '873741', '38lccnztnrfx2mtqvfcqtjx9', '14seven92seven6', '1nhjllhkglz76kfqfszkfgb6', '1twofive182', '8319', '8threeeight2', '3txkkxsrxbz6', '2cj3mhtd4', '12pjpjsfpdznnxgkhdqnine1five2', '73', '66fourrz797', '573', '6kkhrpdltqz9seven7', '89fouroneq15', '4twofmsjsbqls25', '4smqsdrpdqqcdlxjfvrnsevenseven2', '2llkbbpmfmnzlmzsz2', '8xcjlsbtzzbrbkmseveneight475', '1lv64fiverfspsnv2', '7sevencvsxqmk3', '273ninefour68', '43vdcsfnineseven5', '2', '6five7', '3ninenpxqtj494', '1lplgcsz57', '37', '2sevenqbppzsldfour7', '1rbfsfdhc1one6', '3sixrrxrbbzsixsixfrhghcvkrfnggmhqx95', '4one49', '2fourkrpsmnkcslnszhdvj4', '2', '5hxmtzfzb3fdhxvtb8', '2ne1fiveqxfrtmbpdtdtfceightstfive9', '42seven2', '484mlspvcfnineeight84', '1bsix5rbdqnc2five7', '9vhksj1', '4eightfivefivetwo1on8', '17bpqltzf9nine6', '97', '3three3four64', '9vgzzcgjsxhnkckqv98lmjthbdq66', '74six9gxrqzbmnone9', '5', '5768', '5khcfqgffntsmxxxseven655', '2dbcfmvsevenxfkxfjfk5', '2frgktmh9nskvhxch9', '43slhfrqsfp9', '6five879995', '86chnqqvbng93', '1pkgxfvgngt86', '88gdtttxsjkpvpqbeighthpxlsdsbl61', '86xkm8', '3psmmfbdqx4', '75639', '63qlgbddfn6eight9', '2lrlzvdpklf4five8two4', '6vhbz7', '3four55', '16958', '1qmfmnjg7fmr9', '6ninefourgvztqcztk4sevensix1', '5', '45', '348', '5five6vcgxjjthree9', '2fgklcgzzbczjdnvgcx6', '74gfpsfj481', '31', '398', '1ightsixbdhbmhklveightthree182', '7bvjnine2fivethree4', '52pfive9', '59threexjjbczsix5', '1eight69dkhvvplxjfour7', '1eight9threevctrd4', '5threesix7', '8five7kltvbjtbsvnkhlzrtn2', '3348', '48three5five72', '157', '7onetwovxmtvrjxb1', '45five7fivegpzhcfbb5', '37', '7two5one8', '3eight8llkbxkbs9zgznxtj8']
+
+numeric_data: [38, 92, 89, 85, 42, 44, 35, 39, 46, 77, 81, 39, 16, 16, 12, 89, 82, 36, 24, 12, 73, 67, 53, 67, 85, 45, 42, 22, 85, 12, 73, 28, 45, 22, 67, 34, 17, 37, 27, 16, 35, 49, 24, 22, 58, 29, 42, 44, 17, 91, 48, 16, 97, 34, 96, 79, 55, 58, 55, 25, 29, 49, 65, 83, 16, 81, 88, 34, 79, 69, 24, 67, 35, 18, 19, 61, 55, 45, 38, 59, 26, 71, 31, 38, 12, 74, 59, 55, 17, 14, 57, 82, 38, 42, 17, 71, 45, 37, 78, 38]
+
+result_b: 4801
+[0.03125] took: 0.0 sec.
