@@ -36,7 +36,7 @@ def read_input():
     cnt = 0
     for line in sys.stdin:
         cnt += 1
-        print(f"[{cnt}] {line}")
+        # print(f"[{cnt}] {line}")
 
         # val = line.strip()
         # if len(val) > 0:
@@ -81,6 +81,7 @@ def do_main():
     controlled_input_read()
 
     show_elapsed_time()
+    # print("len input_data:", len(input_data))
     # print("input_data", input_data)
 
     result_a = find_solution_a()
