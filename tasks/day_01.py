@@ -90,6 +90,11 @@ def translate_from_left(elem: str, wordy_digits, str_digits):
     index_in_elem = min(match_indexes)
     index_in_digits = match_indexes.index(index_in_elem)
 
+    indexes_of_existing_digits = [idx for digit in str_digits if (idx := elem.find(digit)) != -1]
+    # If there's already a digit before any replace candidate, we should not alter the elem
+    if index_in_elem > min(indexes_of_existing_digits):
+        return elem
+
     new_elem = elem.replace(wordy_digits[index_in_digits], str_digits[index_in_digits], 1)
     return new_elem
 
@@ -106,8 +111,8 @@ def translate_from_right(elem: str, wordy_digits, str_digits):
     index_in_digits = match_indexes.index(index_in_elem)
 
     # be careful here, to really translate the right most occurrence ;)
-    new_elem = elem[:index_in_elem] \
-               + elem[index_in_elem:].replace(wordy_digits[index_in_digits], str_digits[index_in_digits], 1)
+    new_elem = (elem[:index_in_elem]
+                + elem[index_in_elem:].replace(wordy_digits[index_in_digits], str_digits[index_in_digits], 1))
 
     return new_elem
 
@@ -130,7 +135,8 @@ def find_solution_b():
     wordy_digits = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
     str_digits = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
-    translated_data = input_data.copy()[-100:]
+    translated_data = input_data.copy()
+    # translated_data = input_data.copy()[-100:]
 
     # for elem in input_data.copy():
     #     blah = list(map(str.replace, [elem] * len(wordy_digits), wordy_digits, str_digits))
@@ -151,23 +157,23 @@ def find_solution_b():
     #     print("------------------")
 
     for idx, elem in enumerate(translated_data):
-        print(f"\t{idx}: ori elem -> {elem}")
+        # print(f"\t{idx}: ori elem -> {elem}")
 
         # if it's already starts or ends with a digit - skip it :)
         if not re.match(r"^\d", elem):
             elem = translate_from_left(elem, wordy_digits, str_digits)
-            print(f"\t{idx}: processed from left elem -> {elem}")
+            # print(f"\t{idx}: processed from left elem -> {elem}")
         if not re.match(r".*\d$", elem):
             elem = translate_from_right(elem, wordy_digits, str_digits)
-            print(f"\t{idx}: processed from right elem -> {elem}")
+            # print(f"\t{idx}: processed from right elem -> {elem}")
         translated_data[idx] = elem
 
-    print(f"\ntranslated_data: {translated_data}\n")
+    # print(f"\ntranslated_data: {translated_data}\n")
 
     stripped_data = [elem.strip(string.ascii_letters) for elem in translated_data]
-    print(f"stripped_data: {stripped_data}\n")
+    # print(f"stripped_data: {stripped_data}\n")
     numeric_data = [int(elem[0] + elem[-1]) for elem in stripped_data if elem]
-    print(f"numeric_data: {numeric_data}\n")
+    # print(f"numeric_data: {numeric_data}\n")
 
     result = sum(numeric_data)
 
