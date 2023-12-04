@@ -1,0 +1,7 @@
+day_nr: 03
+[0.03125] took: 0.0 sec.
+[0.03125] took: 0.0 sec.
+result_a: 532331
+[0.046875] took: 0.015625 sec.
+result_b: DUMMY(b)
+[0.046875] took: 0.0 sec.
