@@ -89,9 +89,29 @@ def find_solution_a():
 
 def find_solution_b():
     """
-    <Description goes here>
+    Specifically, you win copies of the scratchcards below the winning card equal to the number of matches.
+    Process all the original and copied scratchcards until no more scratchcards are won.
+    Including the original set of scratchcards, how many total scratchcards do you end up with?
     """
-    result = "DUMMY(b)"
+    global input_data
+
+    all_cards: list[int] = []  # the card nr (i.e. [1, 2, 2, ...])
+    for line in input_data:
+        card_nr = int(line.split(": ")[0].split()[1])
+        all_cards.append(card_nr)
+        winning = line.split(": ")[1].split("| ")[0].split()
+        mine = line.split(": ")[1].split("| ")[1].split()
+
+        my_winning = set(winning) & set(mine)
+        if my_winning:
+            # now process the copies as well
+            # if card is already in all_card, duplicate my_winnings for each instance
+            winning_list = [card_nr + inc for inc in range(1, len(my_winning) + 1)]
+            my_global_count = all_cards.count(card_nr)
+            all_cards.extend(winning_list * my_global_count)
+
+    result = len(all_cards)
+    # try 01 -> 9496801
 
     return result
 

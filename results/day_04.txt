@@ -1,7 +1,7 @@
 day_nr: 04
-[0.015625] took: 0.0 sec.
-[0.03125] took: 0.015625 sec.
+[0.03125] took: 0.0 sec.
+[0.03125] took: 0.0 sec.
 result_a: 27845
 [0.03125] took: 0.0 sec.
-result_b: DUMMY(b)
-[0.03125] took: 0.0 sec.
+result_b: 9496801
+[3.09375] took: 3.0625 sec.
