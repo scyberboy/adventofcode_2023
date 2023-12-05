@@ -1,9 +1,12 @@
 #!/usr/bin/env python
-
+import math
 import os
+import pprint
 import re
 import sys
 import time
+import typing
+from collections import OrderedDict
 from threading import Thread
 from typing import Optional
 
@@ -90,7 +93,7 @@ class Array2D:
         return self.data[_y][_x]
 
     def valid_coords(self, _x: int, _y: int) -> bool:
-        if _x < self.size_x and _y < self.size_y:
+        if 0 <= _x < self.size_x and 0 <= _y < self.size_y:
             return True
         else:
             return False
@@ -102,6 +105,11 @@ class Array2D:
             return None
 
     def get_neighbours(self, _x: int, _y: int) -> list[(int, int)]:
+        """
+        :param _x:
+        :param _y:
+        :return: List with coordinates as tuple (x,y) of all neighbours of the given element
+        """
         neigh_offsets = [(-1, 0), (-1, -1), (0, -1), (1, -1), (1, 0), (1, 1), (0, 1), (-1, 1)]
         neighs = []
         for x_off, y_off in neigh_offsets:
@@ -177,8 +185,8 @@ def find_solution_a():
                 # print(f"curr_elem_neighs: {curr_elem_neighs}")
                 curr_nr_neighs_coords.update(curr_elem_neighs)
 
-            elif (len(curr_nr_str) > 0
-                  or (_x == engine_map.size_x - 1)):  # we have something already
+            if ((not curr_elem.isdigit() and len(curr_nr_str) > 0)
+                    or (_x == engine_map.size_x - 1)):  # we have something already
                 # print(f"curr_nr_str: {curr_nr_str}")
                 # print(f"curr_nr_neighs_coords: {curr_nr_neighs_coords}")
                 neigh_values = [engine_map.get_element(_n_x, _n_y) for _n_x, _n_y in curr_nr_neighs_coords]
@@ -201,11 +209,96 @@ def find_solution_a():
     return result
 
 
+def _find_number(engine_map: Array2D, _x: int, _y: int) -> list[(int, int)]:
+    # return a list of coordinates of a whole  number, starting from one if its digits
+    result: list[(int, int)] = [(_x, _y)]
+
+    # 1. check left
+    _start = _x
+    while True:
+        _start -= 1
+        elem = engine_map.get_element(_start, _y)
+        if elem and elem.isdigit():
+            result.append((_start, _y))
+            # print(f"check left, result: {result}")
+        else:
+            # print("check left, break")
+            break
+
+    # 2. check right
+    _end = _x
+    while True:
+        _end += 1
+        elem = engine_map.get_element(_end, _y)
+        if elem and elem.isdigit():
+            result.append((_end, _y))
+            # print(f"check right, result: {result}")
+        else:
+            # print("check right, break")
+            break
+
+    return sorted(result)
+
+
+def _get_numbers(engine_map: Array2D, neighs_values_sorted: dict[(int, int): str]) -> list[int]:
+    # neighs_values_sorted: {(2, 0): '7', (2, 2): '3', (3, 2): '5'}
+    result: list[int] = []
+    processed: set[(int, int)] = set()
+    for _x, _y in neighs_values_sorted:
+        if (_x, _y) in processed:
+            continue
+        number_coors = _find_number(engine_map, _x, _y)
+        # print(f"({_x, _y}) -> got number coors: {number_coors}")
+        processed.update(number_coors)
+        number_value = int("".join([engine_map.get_element(_nx, _ny) for _nx, _ny in number_coors]))
+        # print(f"({_x, _y}) -> got number value: {number_value}")
+        result.append(number_value)
+
+    return result
+
+
 def find_solution_b():
     """
-    <Description goes here>
+    A gear is any * symbol that is adjacent to exactly two part numbers.
+    Its gear ratio is the result of multiplying those two numbers together.
+    What is the sum of all the gear ratios in your engine schematic?
     """
-    result = "DUMMY(b)"
+    global input_data
+
+    engine_map = Array2D(input_data)
+    # print(f"engine_map: {engine_map}")
+
+    gear_ratio: list[int] = []
+
+    for _y in range(engine_map.size_y):
+        for _x in range(engine_map.size_x):
+            curr_elem = engine_map.get_element(_x, _y)
+            if curr_elem == "*":
+                # print("------------")
+                curr_elem_neighs = engine_map.get_neighbours(_x, _y)
+                # print(f"curr_elem_neighs: {curr_elem_neighs}")
+                neighs_numeric_values = [((_n_x, _n_y), num_val) for _n_x, _n_y in curr_elem_neighs
+                                         if (num_val := engine_map.get_element(_n_x, _n_y)).isdigit()]
+                # print(f"neighs_numeric_values: {neighs_numeric_values}")
+                neighs_values_sorted = dict(sorted(neighs_numeric_values))
+                # print(f"neighs_values_sorted: {neighs_values_sorted}")
+
+                if len(neighs_numeric_values) >= 2:  # we're interested :)
+                    # ------------
+                    # curr_elem_neighs: [(2, 1), (2, 0), (3, 0), (4, 0), (4, 1), (4, 2), (3, 2), (2, 2)]
+                    # neighs_numeric_values: [((2, 0), '7'), ((3, 2), '5'), ((2, 2), '3')]
+                    # neighs_values_sorted: {(2, 0): '7', (2, 2): '3', (3, 2): '5'}
+                    # ------------
+                    numbers = _get_numbers(engine_map, neighs_values_sorted)
+                    # print(f"numbers: {numbers}")
+                    if len(numbers) == 2:
+                        # print(f"numbers: {numbers}")
+                        gear_ratio.append(math.prod(numbers))
+                        # print(f"gear_ratio: {gear_ratio}")
+
+    result = sum(gear_ratio)
+
+    # try 01 -> 82301120 (OK) :)
 
     return result
 
@@ -219,7 +312,7 @@ def do_main():
 
     show_elapsed_time()
     # print("len input_data:", len(input_data))
-    # print("input_data", input_data)
+    # print("input_data:\n", pprint.pformat(input_data))
 
     result_a = find_solution_a()
     print(f"result_a: {result_a}")
