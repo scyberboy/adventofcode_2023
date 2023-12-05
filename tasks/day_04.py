@@ -4,6 +4,7 @@ import os
 import re
 import sys
 import time
+from collections import Counter
 from threading import Thread
 
 # GLOBALS
@@ -95,10 +96,10 @@ def find_solution_b():
     """
     global input_data
 
-    all_cards: list[int] = []  # the card nr (i.e. [1, 2, 2, ...])
+    all_cards: Counter = Counter()  # the card nr (i.e. [1, 2, 2, ...])
     for line in input_data:
         card_nr = int(line.split(": ")[0].split()[1])
-        all_cards.append(card_nr)
+        all_cards[card_nr] += 1
         winning = line.split(": ")[1].split("| ")[0].split()
         mine = line.split(": ")[1].split("| ")[1].split()
 
@@ -107,10 +108,10 @@ def find_solution_b():
             # now process the copies as well
             # if card is already in all_card, duplicate my_winnings for each instance
             winning_list = [card_nr + inc for inc in range(1, len(my_winning) + 1)]
-            my_global_count = all_cards.count(card_nr)
-            all_cards.extend(winning_list * my_global_count)
+            my_global_count = all_cards[card_nr]
+            all_cards.update(winning_list * my_global_count)
 
-    result = len(all_cards)
+    result = all_cards.total()
     # try 01 -> 9496801
 
     return result

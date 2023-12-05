@@ -4,4 +4,4 @@ day_nr: 04
 result_a: 27845
 [0.03125] took: 0.0 sec.
 result_b: 9496801
-[3.09375] took: 3.0625 sec.
+[0.34375] took: 0.3125 sec.
