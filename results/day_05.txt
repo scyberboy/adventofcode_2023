@@ -1,0 +1,19 @@
+day_nr: 05
+[0.28125] took: 0.0 sec.
+result_a: 84470622
+[0.28125] took: 0.0 sec.
+Current seed range: [3082872446 + 316680412]
+Min location id so far: 298690884
+[2203.859375] took: 2203.578125 sec.
+Current seed range: [2769223903 + 74043323]
+Min location id so far: 298690884
+[2745.578125] took: 541.71875 sec.
+Traceback (most recent call last):
+  File "C:\Users\stoyc\PycharmProjects\adventofcode_2023\tasks\day_05.py", line 231, in <module>
+    do_main()
+  File "C:\Users\stoyc\PycharmProjects\adventofcode_2023\tasks\day_05.py", line 224, in do_main
+    result_b = find_solution_b()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\stoyc\PycharmProjects\adventofcode_2023\tasks\day_05.py", line 195, in find_solution_b
+    location_ids.append(id_loca)
+MemoryError
